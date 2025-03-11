@@ -51,6 +51,7 @@
 }
 
 .heroSection {
+    margin-top: 75px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -81,7 +82,7 @@
   font-family: "Fira Code", sans-serif;
   margin-top: 0;
 }
-.des {
+.description {
   font-size: 18px;
   font-weight: regular;
   color: #abb2bf;
@@ -96,9 +97,18 @@
   font-family: "Fira Code", sans-serif;
   cursor: pointer;
 }
+.heroSection{
+    margin-bottom: 100px;
+}
 .quotebox{
     width: fit-content;
     position: relative;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-bottom: 100px;
 }
 .quote {
   border: 1px solid #888;
@@ -142,4 +152,108 @@
   position: absolute;
   right: 0px;
   padding: 5px 10px;
+}
+
+#project-tagline span {
+    padding-left: 10px;
+    color: #d41c46;
+}
+
+#project-tagline::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #d41c46;
+    margin-right: 50%;
+}
+#project-tagline {
+    font-size: 32px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 10px;
+    padding-left: 75px;
+    margin-bottom: 35px;
+    font-family: "Fira Code", sans-serif;
+}
+#overAllContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cardOverAll{
+    border: #ABB2BF 1px solid;
+    width: 331px;
+    height: fit-content;
+    margin-bottom: 100px;
+}
+.firstTopic{
+    border-bottom: #ABB2BF 1px solid;
+}
+.pro-img{
+    width: 331px;
+    height: 201px;
+}
+.button-86{
+    border: #ff014f 1px solid;
+  color: white;
+  background: transparent;
+  padding: 2px 16px;
+  font-family: "Fira Code", sans-serif;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.firstTopic{
+    font-family: "Fira Code", sans-serif;
+    color: #ABB2BF;
+    font-size: 16;
+    font-weight: 400;
+    padding: 10px;
+    margin-top: 0;
+}
+.mainTopic{
+    font-family: "Fira Code", sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+}
+.des{
+    font-family: "Fira Code", sans-serif;
+    font-size: 16px; 
+    color: #ABB2BF;
+}
+.maincontainer{
+    padding-left: 10px;
+}
+.skillSection{
+    display: flex;
+    justify-content: space-around;
+}
+.skillTables {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+}
+
+.box {
+    border: 1px solid #888;
+    padding: 10px;
+    min-width: 150px;
+}
+
+.box h3 {
+    margin: 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #888;
+    font-size: 14px;
+}
+
+.box ul {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 0 0;
+    font-size: 14px;
+}
+
+.box ul li {
+    padding: 2px 0;
 }
