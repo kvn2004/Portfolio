@@ -1,5 +1,146 @@
-*{
+* {
     background-color: #212428;
-    margin: 10px;
-    padding: 0;
-}
+  }
+  .navBar a {
+    text-decoration: none;
+  }
+  .navBar {
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navBarlogo i {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .navBarlogo a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: "Fira Code", sans-serif;
+    padding-left: 2px;
+  }
+  .navBar ul {
+    margin: 16px 0;
+    list-style: none;
+    font-family: "Fira Code", sans-serif;
+    font-weight: lighter;
+  }
+  .navBar ul li {
+    display: inline-block;
+  }
+  .navBar ul li span {
+    color: #ff014f;
+    font-family: "Fira Code", sans-serif;
+  }
+  .navBar ul li a {
+    font-size: 20px;
+    color: #ffffff;
+    margin-right: 25px;
+  }
+  .navBar ul li a:hover {
+    color: #abb2bf;
+  }
+  .navBar ul li.active a {
+    color: #abb2bf;
+  }
+  .list {
+    padding-right: 20px;
+  }
+  
+  .heroSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .heroSection .left {
+    width: 50%;
+    padding-left: 10px;
+  }
+  .greeting {
+    font-size: 48px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: "Fira Code", sans-serif;
+    margin-bottom: 0;
+  }
+  .name {
+    font-size: 48px;
+    font-weight: 400;
+    color: #ff014f;
+    font-family: "Fira Code", sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .codeName {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: "Fira Code", sans-serif;
+    margin-top: 0;
+  }
+  .des {
+    font-size: 18px;
+    font-weight: regular;
+    color: #abb2bf;
+    font-family: "Fira Code", sans-serif;
+    margin-top: 0;
+  }
+  .contactMe {
+    border: #ff014f 1px solid;
+    color: white;
+    background: transparent;
+    padding: 8px 16px;
+    font-family: "Fira Code", sans-serif;
+    cursor: pointer;
+  }
+  .quotebox{
+      width: fit-content;
+      position: relative;
+  }
+  .quote {
+    border: 1px solid #888;
+    padding: 20px;
+    width: fit-content;
+    background-color:transparent;
+    position: relative;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ABB2BF;
+    font-family: "Fira Code", sans-serif;
+    font-size: 24px regular;
+  }
+  
+  .quote::before {
+    content: "“";
+    font-size: 40px;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    color: #aaa;
+  }
+  
+  .quote::after {
+    content: "”";
+    font-size: 40px;
+    position: absolute;
+    right: 10px;
+    bottom: -10px;
+    color: #aaa;
+  }
+  
+  .quotebox .author {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #bbb;
+    border: 1px solid #888;
+    width: fit-content;
+    margin-top: 0;
+    position: absolute;
+    right: 0px;
+    padding: 5px 10px;
+  }
+  
