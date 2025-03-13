@@ -51,7 +51,7 @@
 }
 
 .heroSection {
-    margin-top: 75px;
+  margin-top: 75px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -97,28 +97,28 @@
   font-family: "Fira Code", sans-serif;
   cursor: pointer;
 }
-.heroSection{
-    margin-bottom: 100px;
+.heroSection {
+  margin-bottom: 100px;
 }
-.quotebox{
-    width: fit-content;
-    position: relative;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin-bottom: 100px;
+.quotebox {
+  width: fit-content;
+  position: relative;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-bottom: 100px;
 }
 .quote {
   border: 1px solid #888;
   padding: 20px;
   width: fit-content;
-  background-color:transparent;
+  background-color: transparent;
   position: relative;
   font-size: 16px;
   line-height: 1.5;
-  color: #ABB2BF;
+  color: #abb2bf;
   font-family: "Fira Code", sans-serif;
   font-size: 24px regular;
 }
@@ -155,47 +155,47 @@
 }
 
 #project-tagline span {
-    padding-left: 10px;
-    color: #d41c46;
+  padding-left: 10px;
+  color: #d41c46;
 }
 
 #project-tagline::after {
-    content: "";
-    flex: 1;
-    height: 1px;
-    background-color: #d41c46;
-    margin-right: 50%;
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #d41c46;
+  margin-right: 50%;
 }
 #project-tagline {
-    font-size: 32px;
-    font-weight: normal;
-    display: flex;
-    align-items: center;
-    color: white;
-    gap: 10px;
-    padding-left: 75px;
-    margin-bottom: 35px;
-    font-family: "Fira Code", sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  padding-left: 75px;
+  margin-bottom: 35px;
+  font-family: "Fira Code", sans-serif;
 }
-#overAllContainer{
-    display: flex;
-    justify-content: space-evenly;
+#overAllContainer {
+  display: flex;
+  justify-content: space-evenly;
 }
-.cardOverAll{
-    border: #ABB2BF 1px solid;
-    width: 331px;
-    height: fit-content;
-    margin-bottom: 100px;
+.cardOverAll {
+  border: #abb2bf 1px solid;
+  width: 331px;
+  height: fit-content;
+  margin-bottom: 100px;
 }
-.firstTopic{
-    border-bottom: #ABB2BF 1px solid;
+.firstTopic {
+  border-bottom: #abb2bf 1px solid;
 }
-.pro-img{
-    width: 331px;
-    height: 201px;
+.pro-img {
+  width: 331px;
+  height: 201px;
 }
-.button-86{
-    border: #ff014f 1px solid;
+.button-86 {
+  border: #ff014f 1px solid;
   color: white;
   background: transparent;
   padding: 2px 16px;
@@ -203,57 +203,195 @@
   cursor: pointer;
   margin-bottom: 10px;
 }
-.firstTopic{
-    font-family: "Fira Code", sans-serif;
-    color: #ABB2BF;
-    font-size: 16;
-    font-weight: 400;
-    padding: 10px;
-    margin-top: 0;
+.firstTopic {
+  font-family: "Fira Code", sans-serif;
+  color: #abb2bf;
+  font-size: 16;
+  font-weight: 400;
+  padding: 10px;
+  margin-top: 0;
 }
-.mainTopic{
-    font-family: "Fira Code", sans-serif;
-    color: #ffffff;
-    font-size: 24px;
+.mainTopic {
+  font-family: "Fira Code", sans-serif;
+  color: #ffffff;
+  font-size: 24px;
 }
-.des{
-    font-family: "Fira Code", sans-serif;
-    font-size: 16px; 
-    color: #ABB2BF;
+.des {
+  font-family: "Fira Code", sans-serif;
+  font-size: 16px;
+  color: #abb2bf;
 }
-.maincontainer{
-    padding-left: 10px;
+.maincontainer {
+  padding-left: 10px;
 }
-.skillSection{
-    display: flex;
-    justify-content: space-around;
+.Skill {
+  margin-bottom: 100px;
+}
+.skillSection {
+  display: flex;
+  justify-content: space-evenly;
 }
 .skillTables {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
 }
 
 .box {
-    border: 1px solid #888;
-    padding: 10px;
-    min-width: 150px;
+  border: 1px solid #abb2bf;
+  padding: 10px;
+  min-width: 150px;
+  height: fit-content;
 }
 
 .box h3 {
-    margin: 0;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #888;
-    font-size: 14px;
+  margin: 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #abb2bf;
+  font: size 16px;
+  font-family: "Fira Code", sans-serif;
+  color: #ffffff;
+  font-weight: 400;
 }
 
 .box ul {
-    list-style: none;
-    padding: 0;
-    margin: 5px 0 0 0;
-    font-size: 14px;
+  list-style: none;
+  padding: 0;
+  margin: 5px 0 0 0;
+  font: size 16px;
+  font-family: "Fira Code", sans-serif;
+  color: #abb2bf;
+  font-weight: 300;
 }
 
 .box ul li {
-    padding: 2px 0;
+  padding: 2px 0;
+}
+.AboutMe > #project-tagline{
+  margin-bottom: 0;
+}
+.AboutMeSection {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.AboutMeDes {
+  width: 50%;
+}
+.AboutMeDes p {
+  font: size 16px;
+  font-family: "Fira Code", sans-serif;
+  color: #abb2bf;
+  font-weight: 300;
+  width: 500px;
+  line-height: 30px;
+}
+.AboutMeImg {
+  width: 343px;
+  height: 510px;
+  position: relative;
+  top: 0;
+}
+.ContactsSection{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.ContactsDes{
+  width: 50;
+}
+.ContactsDes p {
+  font: size 16px;
+  font-family: "Fira Code", sans-serif;
+  color: #abb2bf;
+  font-weight: 300;
+  width: 500px;
+  
+}
+.contactbox{
+  width: 505px;
+  height: 63px;
+  border: 1px solid #abb2bf;
+  padding: 10px;
+
+}
+.contactbox h3 {
+  margin: 0;
+  padding-bottom: 5px;
+  font: size 16px;
+  font-family: "Fira Code", sans-serif;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.contactbox ul {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0 0 0;
+  font: size 16px;
+  font-family: "Fira Code", sans-serif;
+  color: #abb2bf;
+  font-weight: 300;
+  display: flex;
+  gap: 3px;
+}
+
+.contactbox ul li {
+  padding: 2px 0;
+}
+hr{
+  margin-bottom: 20px;
+}
+
+.footerSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  
+}
+.footer-left {
+  max-width: 60%;
+}
+.footer-left p {
+  margin: 5px 0;
+}
+.footer-left p span i{
+  color: #FF014F;
+  font-size: 25px;
+  font-weight: bold;
+  gap: 5px;
+}
+.footer-left .email {
+  color: #a0aec0;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #718096;
+  font-size: 12px;
+  
+  
+}
+.footer-right {
+  text-align: right;
+}
+.footer-right h3 {
+  margin-bottom: 10px;
+}
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  filter: invert(50%);
+  transition: filter 0.3s;
+}
+.social-icons img:hover {
+  filter: invert(100%);
 }
