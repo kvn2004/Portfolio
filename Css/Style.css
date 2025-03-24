@@ -49,6 +49,30 @@
 .list {
   padding-right: 20px;
 }
+.sidebar {
+  position: absolute;
+  left: 20px;
+  top: 20%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  width: 1px;
+  height: 192px;
+  background-color: #abb2bf;
+  margin-bottom: 10px;
+}
+
+.icons a {
+  display: block;
+  margin: 10px 0;
+}
+.icons a i {
+ color: #abb2bf;
+}
 
 .heroSection {
   margin-top: 75px;
