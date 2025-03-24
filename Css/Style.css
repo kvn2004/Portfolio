@@ -202,6 +202,13 @@
   font-family: "Fira Code", sans-serif;
   cursor: pointer;
   margin-bottom: 10px;
+  transition: ease-out 0.5s;
+}
+
+.button-86:hover {
+  color: #212428;
+  box-shadow: inset 0 -100px 0 0 #ff004d;
+  border: 2px solid black;
 }
 .firstTopic {
   font-family: "Fira Code", sans-serif;
@@ -337,6 +344,10 @@
   display: flex;
   gap: 3px;
 }
+#mailLogo{
+  color: #abb2bf;
+  padding-right: 5px;
+}
 
 .contactbox ul li {
   padding: 2px 0;
@@ -358,20 +369,36 @@ hr{
 .footer-left p {
   margin: 5px 0;
 }
+#footerDes {
+  color: #abb2bf;
+  font: size 15px;
+  font-family: "Fira Code", sans-serif;
+  font-weight: lighter;
+  margin-top: 10px;
+}
+.footer-left p span{
+  color: #ffffff;
+  margin-right: 7px;
+  font: size 16px;
+  font-family: "Fira Code", sans-serif;
+}
 .footer-left p span i{
   color: #FF014F;
   font-size: 25px;
   font-weight: bold;
-  gap: 5px;
+  margin-right: 7px;
 }
 .footer-left .email {
-  color: #a0aec0;
+  color: #abb2bf;
+  font: size 16px;
+  font-family: "Fira Code", sans-serif;
+  font-weight: lighter;
 }
 .copyright {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #718096;
+  color: #abb2bf;
   font-size: 12px;
   
   
@@ -381,17 +408,14 @@ hr{
 }
 .footer-right h3 {
   margin-bottom: 10px;
+  font: size 16px;
+  font-family: "Fira Code", sans-serif;
+  color:#ffffff;
 }
-.social-icons {
+.social-icons{
   display: flex;
   gap: 15px;
 }
-.social-icons img {
-  width: 24px;
-  height: 24px;
-  filter: invert(50%);
-  transition: filter 0.3s;
-}
-.social-icons img:hover {
-  filter: invert(100%);
+.social-icons a i{
+ color: #abb2bf;
 }
