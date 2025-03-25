@@ -176,6 +176,7 @@
   position: absolute;
   right: 0px;
   padding: 5px 10px;
+  font-family: "Fira Code", sans-serif;
 }
 
 #project-tagline span {
@@ -442,4 +443,123 @@ hr{
 }
 .social-icons a i{
  color: #abb2bf;
+}
+
+
+/* Mobile Large (425px) */
+@media (max-width: 425px) {
+  body{
+    overflow-x: hidden;
+  }
+  .navBar{
+    padding-left: 60px;
+
+  }
+  .list{
+    display: none;
+  }
+  #project-tagline{
+    padding-left: 0%;
+    font-size: 24px;
+  }
+  .heroSection{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+  .heroSection .description{
+    width: 322px;
+    font-size: 15px;
+  }
+  .name{
+    font-size: 24px;
+    width: 234px;
+  }
+  .greeting{
+    font-size: 24px;
+  }
+  .left{
+    margin-left: 50px;
+  }
+  .right{
+    width: 393px;
+    height: 390px;
+    margin: 0;
+    justify-content: flex-start;
+  }
+  .quotebox{
+    width: 400px;
+    height: 105px;
+  }
+  #overAllContainer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .skillSection{
+    flex-direction: column;
+    gap: 15px;
+  }
+  .skillTables{
+    grid-template-columns: repeat(2, auto);
+  }
+  .AboutMeSection{
+    flex-direction: column-reverse;
+    justify-content:flex-start;
+    align-items: flex-start;
+  }
+  .AboutMeDes  {
+    font-size:  14px;
+    font-weight: 200;
+    width: 325px;
+   margin-left: 15px;
+  }
+  .AboutMeDes p{
+    width: 340px;
+  }
+ 
+  .AboutMeImg{
+    margin: auto;
+  }
+  .ContactsSection{
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    
+  }
+  .ContactsSection .ContactsDes{
+    width: 380px;
+    
+  }
+  .ContactsSection .ContactsDes p{
+    width: 340px;
+    
+  }
+  .contactbox{
+    width: 312px;
+  }
+  .footerSection{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    
+  }
+  .footer-left {
+    height: 159px;
+    max-width: 100%;
+   
+  }
+  .footer-left p{
+   column-gap: 10px;
+   
+  }
+  .footer-left p .email{
+   padding-top: 10px;
+   background: transparent;
+  }
+  .footer-left #footerDes{
+    margin-top: 20px;
+  }
+  
+  
 }
