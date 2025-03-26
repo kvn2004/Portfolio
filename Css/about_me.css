@@ -234,7 +234,7 @@
   padding: 2px 0;
 }
 /*ipad mini  */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .navBar {
     width: max-content;
   }
@@ -254,7 +254,7 @@
   }
 }
 /* 1024 Lap */
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   .about_meDes{
     width: 450px;
   }

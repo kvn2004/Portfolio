@@ -806,7 +806,7 @@ hr {
   }
 }
 /* 1024 Lap */
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   .sidebar {
     top: 14.6%;
   }
