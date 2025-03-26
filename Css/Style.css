@@ -809,3 +809,28 @@ hr{
     margin-top: 20px;
   }
 }
+@media (max-width:768px) {
+  .navBar{
+    width: max-content;
+  }
+  .sidebar{
+    top: 14.6%;
+  }
+   body{
+    width: 760px;
+    overflow-x: hidden;
+   }
+   .right img{
+    width: 322px;
+    height: auto;
+   }
+   .heroSection .left{
+    padding-left: 65px;
+   }
+   .AboutMeDes p{
+    width: 340px;
+   }
+   .ContactsDes p{
+    width: 390px;
+   }
+}

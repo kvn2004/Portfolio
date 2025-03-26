@@ -72,7 +72,7 @@
   margin: 10px 0;
 }
 .icons a i {
- color: #abb2bf;
+  color: #abb2bf;
 }
 
 /* footer css strat*/
@@ -81,7 +81,6 @@
   justify-content: space-around;
   align-items: center;
   padding: 20px;
-  
 }
 .footer-left {
   max-width: 60%;
@@ -96,14 +95,14 @@
   font-weight: lighter;
   margin-top: 10px;
 }
-.footer-left p span{
+.footer-left p span {
   color: #ffffff;
   margin-right: 7px;
   font: size 16px;
   font-family: "Fira Code", sans-serif;
 }
-.footer-left p span i{
-  color: #FF014F;
+.footer-left p span i {
+  color: #ff014f;
   font-size: 25px;
   font-weight: bold;
   margin-right: 7px;
@@ -120,8 +119,6 @@
   align-items: center;
   color: #abb2bf;
   font-size: 12px;
-  
-  
 }
 .footer-right {
   text-align: right;
@@ -130,52 +127,51 @@
   margin-bottom: 10px;
   font: size 16px;
   font-family: "Fira Code", sans-serif;
-  color:#ffffff;
+  color: #ffffff;
 }
-.social-icons{
+.social-icons {
   display: flex;
   gap: 15px;
 }
-.social-icons a i{
- color: #abb2bf;
+.social-icons a i {
+  color: #abb2bf;
 }
 
 /* footer css end */
 
-.heroSection{
+.heroSection {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin-top: 75px;
   margin-bottom: 100px;
 }
-.heroSection .left{
+.heroSection .left {
   width: 50%;
   height: 649px;
 }
 #mainTopic {
   margin-bottom: 100px;
 }
-#mainTopic h2 span{
-  color: #FF014F;
+#mainTopic h2 span {
+  color: #ff014f;
 }
-#mainTopic h2{
+#mainTopic h2 {
   color: #ffffff;
   font-size: 32px;
   font-weight: 700;
 }
-.subtitle{
+.subtitle {
   color: #ffffff;
   font-style: 16px;
 }
-.about_meDes{
+.about_meDes {
   width: 515px;
-  
 }
-.about_meDes p{
+.about_meDes p {
   color: #abb2bf;
   font-size: 16px;
-  font-weight:  300;
+  font-weight: 300;
 }
 
 #project-tagline span {
@@ -194,16 +190,15 @@
   margin-bottom: 35px;
   font-family: "Fira Code", sans-serif;
 }
-.Skill{
+.Skill {
   margin-bottom: 75px;
 }
-.skillSection{
+.skillSection {
   display: flex;
   justify-content: left;
   margin-left: 100px;
-  
 }
-.skillTables{
+.skillTables {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -237,4 +232,24 @@
 
 .box ul li {
   padding: 2px 0;
+}
+/* */
+@media (max-width: 768px) {
+  .navBar {
+    width: max-content;
+  }
+  .sidebar {
+    top: 14.6%;
+  }
+  body {
+    width: 760px;
+    overflow-x: hidden;
+  }
+  .heroSection{
+    flex-direction: column-reverse;
+  }
+  .skillTables{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
 }
