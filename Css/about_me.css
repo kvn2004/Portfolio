@@ -233,7 +233,7 @@
 .box ul li {
   padding: 2px 0;
 }
-/* */
+/*ipad mini  */
 @media (max-width: 768px) {
   .navBar {
     width: max-content;
@@ -251,5 +251,21 @@
   .skillTables{
     display: grid;
     grid-template-columns: repeat(3, auto);
+  }
+}
+/* 1024 Lap */
+@media (max-width: 1024px) {
+  .about_meDes{
+    width: 450px;
+  }
+  .heroSection .left{
+    padding-left: 60px;
+  }
+  .sidebar {
+    top: 14.6%;
+  }
+  .skillTables{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
   }
 }
