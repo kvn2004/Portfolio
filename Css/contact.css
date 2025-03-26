@@ -210,7 +210,7 @@ h3 {
   text-decoration: none;
 }
 /* Media query */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .navBar {
     width: max-content;
   }

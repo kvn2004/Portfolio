@@ -780,7 +780,7 @@ hr {
     margin-top: 20px;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .navBar {
     width: max-content;
   }
