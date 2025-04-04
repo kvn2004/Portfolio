@@ -780,7 +780,9 @@ hr {
     margin-top: 20px;
   }
 }
-@media (min-width: 768px) {
+/* Tablet (768px) */
+
+@media (max-width: 768px) and (min-width:425px){
   .navBar {
     width: max-content;
   }
@@ -806,7 +808,7 @@ hr {
   }
 }
 /* 1024 Lap */
-@media (min-width: 1024px) {
+@media (max-width: 1024px)and(min-width:768px) {
   .sidebar {
     top: 14.6%;
   }
