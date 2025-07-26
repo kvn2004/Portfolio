@@ -13,6 +13,7 @@
     <!--    Title-->
     <title>Vihanga Nimsara</title>
     <!--CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="Css/Style.css" />
     <link
       rel="stylesheet"
@@ -71,7 +72,7 @@
   <!-- side coner end -->
     <main>
       <!-- HERO SECTION -->
-      <div class="heroSection">
+      <div data-aos="zoom-in" data-aos-duration="2000" class="heroSection">
         <div class="left">
           <div class="content">
             <p class="greeting">Hi I’m</p>
@@ -93,7 +94,7 @@
       </div>
     </main>
     <!-- Quote Box Start  -->
-    <div class="quotebox">
+    <div data-aos="zoom-in" data-aos-duration="2000"  class="quotebox">
       <div class="quote">
         Debugging is like being the detective in a crime movie, <br />
         Where you are also the murderer.
@@ -104,7 +105,7 @@
     <!-- project Section Start -->
     <div class="project" id="project">
       <h1 id="project-tagline"><span>#</span>Projects</h1>
-      <div id="overAllContainer">
+      <div data-aos="zoom-in" data-aos-duration="1500" id="overAllContainer">
         <!--        first card-->
         <div class="cardOverAll">
           <img
@@ -165,8 +166,10 @@
     <div class="Skill">
       <h1 id="project-tagline"><span>#</span>Skills</h1>
       <div class="skillSection">
+        <div data-aos="fade-right" data-aos-duration="2000" >
         <img src="./assets/Group 36.svg" alt="" srcset="" />
-        <div class="skillTables">
+        </div>
+        <div data-aos="fade-left" data-aos-duration="2000"  class="skillTables">
           <div class="box">
             <h3>Languages</h3>
             <ul>
@@ -213,7 +216,7 @@
     <div class="AboutMe">
       <h1 id="project-tagline"><span>#</span>About-ME</h1>
       <div class="AboutMeSection">
-        <div class="AboutMeDes">
+        <div data-aos="fade-right" data-aos-duration="2000" class="AboutMeDes">
           <p>
             Hello ! I’m Vihanga Nimsara,
             <br /><br />
@@ -228,7 +231,9 @@
           </p>
           <button class="button-86" onclick="window.location.href='about_me.html'">Read more -></button>
         </div>
+        <div data-aos="fade-left" data-aos-duration="2000">
         <img src="./assets/Group 50.svg" alt="" srcset="" class="AboutMeImg" />
+        </div>
       </div>
     </div>
     <!-- About_me Section End -->
@@ -236,13 +241,13 @@
     <div class="Contacts">
       <h1 id="project-tagline"><span>#</span>Contacts</h1>
       <div class="ContactsSection">
-        <div class="ContactsDes">
+        <div data-aos="fade-right" data-aos-duration="2000"  class="ContactsDes">
           <p>
             I’m interested in freelance opportunities. However, if you have
             other request or question, don’t hesitate to contact me
           </p>
         </div>
-        <div class="contactbox">
+        <div data-aos="fade-left" data-aos-duration="2000"  class="contactbox">
           <h3>Message me here</h3>
           <ul>
             <li>
@@ -290,5 +295,10 @@
       </p>
     </footer>
     <!-- Footer End -->
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</script>
   </body>
 </html>

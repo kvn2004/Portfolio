@@ -50,6 +50,7 @@
   padding-right: 20px;
 }
 .sidebar {
+  z-index: 1000;
   position: absolute;
   left: 20px;
   top: 20%;
